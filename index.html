@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>46-IDUM | Andijon viloyati, Buloqboshi tumani 46-sonli ixtisoslashtirilgan davlat umumta'lim maktabi</title>
+  <meta name="description" content="O‘zbekiston Respublikasi Andijon viloyati Buloqboshi tumanida joylashgan 46-sonli ixtisoslashtirilgan davlat umumta'lim maktabi (46-IDUM) rasmiy veb-portali.">
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- Loading animatsiyasi -->
+  <div id="page-loader" aria-hidden="true">
+    <div class="loader-emblem">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#E5B341" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+    </div>
+    <span class="loader-label">46-IDUM Yuklanmoqda...</span>
+  </div>
+
+  <!-- Top Info Bar -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <span class="topbar-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          Andijon viloyati, Buloqboshi tumani
+        </span>
+        <span class="topbar-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          [Telefon: +998 (__) ___-__-__]
+        </span>
+      </div>
+      <div class="topbar-right">
+        <span class="topbar-badge">Bilim — kelajak poydevori!</span>
+        <a href="admission.html" style="font-weight:600;color:#FFFFFF;">Qabul bo‘limi &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="46-IDUM Bosh sahifa">
+        <img src="images/logo.png" alt="46-IDUM logotipi" class="brand-logo" loading="eager">
+        <div class="brand-text">
+          <span class="brand-title">46-IDUM</span>
+          <span class="brand-subtitle">Buloqboshi tumani</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Asosiy navigatsiya">
+        <a href="index.html" class="nav-link active">Bosh sahifa</a>
+        <a href="about.html" class="nav-link">Maktab haqida</a>
+        <a href="administration.html" class="nav-link">Rahbariyat</a>
+        <a href="teachers.html" class="nav-link">O‘qituvchilar</a>
+        <a href="news.html" class="nav-link">Yangiliklar</a>
+        <a href="gallery.html" class="nav-link">Galereya</a>
+        <a href="achievements.html" class="nav-link">Yutuqlar</a>
+        <a href="admission.html" class="nav-link">Qabul</a>
+        <a href="contact.html" class="nav-link">Aloqa</a>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="icon-btn" data-open-search aria-label="Sayt ichida qidirish" title="Qidirish (Ctrl+K)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </button>
+        <button type="button" class="icon-btn" data-theme-toggle aria-label="Tungi rejimga o'tish" title="Tungi rejim"></button>
+        <button type="button" class="icon-btn hamburger-btn" id="mobileMenuOpen" aria-label="Menyuni ochish" aria-expanded="false">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+  <aside class="mobile-nav-drawer" id="mobileNavDrawer" aria-label="Mobil menyu">
+    <div class="mobile-nav-header">
+      <div class="brand">
+        <img src="images/logo.png" alt="46-IDUM logotipi" class="brand-logo" style="width:40px;height:40px;">
+        <div class="brand-text">
+          <span class="brand-title" style="font-size:1rem;">46-IDUM</span>
+          <span class="brand-subtitle">Buloqboshi tumani</span>
+        </div>
+      </div>
+      <button type="button" class="icon-btn" id="mobileMenuClose" aria-label="Menyuni yopish">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+    </div>
+    <nav class="mobile-nav-list">
+      <a href="index.html" class="nav-link active">Bosh sahifa</a>
+      <a href="about.html" class="nav-link">Maktab haqida</a>
+      <a href="administration.html" class="nav-link">Maktab rahbariyati</a>
+      <a href="teachers.html" class="nav-link">O‘qituvchilar</a>
+      <a href="news.html" class="nav-link">Yangiliklar</a>
+      <a href="gallery.html" class="nav-link">Foto galereya</a>
+      <a href="achievements.html" class="nav-link">O‘quvchilar yutuqlari</a>
+      <a href="admission.html" class="nav-link">Qabul va o‘quv jarayoni</a>
+      <a href="contact.html" class="nav-link">Aloqa</a>
+    </nav>
+  </aside>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src="images/school/hero-school.jpg" alt="46-sonli ixtisoslashtirilgan davlat umumta'lim maktabi binosi" class="hero-bg" loading="eager">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="animate-hero">
+          <div class="hero-location">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            O‘zbekiston Respublikasi • Andijon viloyati, Buloqboshi tumani
+          </div>
+          <h1 class="hero-title">46-sonli ixtisoslashtirilgan davlat umumta'lim maktabi</h1>
+          <p class="hero-motto">“Bilim — kelajak poydevori!”</p>
+          <p class="hero-subtitle">
+            Buloqboshi tumanidagi 46-IDUM — iqtidorli o‘quvchilarni zamonaviy ta’lim standartlari asosida chuqurlashtirilgan fanlar, ilmiy izlanish va yuksak ma’naviyat ruhida tarbiyalovchi ta’lim maskani.
+          </p>
+          <div class="hero-actions">
+            <a href="about.html" class="btn btn-accent">
+              Maktab haqida
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a href="admission.html" class="btn btn-outline-light">
+              Qabul va o‘quv jarayoni
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-card animate-hero-delay">
+          <div class="hero-card-header">
+            <img src="images/logo.png" alt="46-IDUM ramzi" class="hero-card-logo" loading="eager">
+            <div>
+              <strong style="display:block;font-size:1.05rem;">46-IDUM Ta’lim Portali</strong>
+              <span style="font-size:0.82rem;color:rgba(255,255,255,0.78);">Ixtisoslashtirilgan ta’lim muhiti</span>
+            </div>
+          </div>
+          <div class="hero-card-list">
+            <div class="hero-card-item">
+              <span class="hero-card-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 1 1 3 3L7 19l-4 1 1-4Z"/></svg>
+              </span>
+              <div>
+                <strong>Chuqurlashtirilgan fanlar</strong>
+                <div style="font-size:0.83rem;color:rgba(255,255,255,0.75);">Aniq va tabiiy fanlar, axborot texnologiyalari va xorijiy tillar</div>
+              </div>
+            </div>
+            <div class="hero-card-item">
+              <span class="hero-card-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+              </span>
+              <div>
+                <strong>Olimpiada va tanlovlar</strong>
+                <div style="font-size:0.83rem;color:rgba(255,255,255,0.75);">Iqtidorli o‘quvchilar bilan tizimli tayyorgarlik</div>
+              </div>
+            </div>
+            <div class="hero-card-item">
+              <span class="hero-card-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              </span>
+              <div>
+                <strong>Zamonaviy infratuzilma</strong>
+                <div style="font-size:0.83rem;color:rgba(255,255,255,0.75);">Axborot-resurs markazi, kompyuter xonasi va sport majmuasi</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats-section">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-card reveal">
+            <div class="stat-top">
+              <span class="stat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </span>
+              <span class="badge badge-sample">Namuna</span>
+            </div>
+            <div class="stat-value" data-counter="640" data-suffix="+">640+</div>
+            <div class="stat-label">O‘quvchilar soni</div>
+            <div class="stat-note">Tahrirlanadigan namunaviy ko‘rsatkich</div>
+          </div>
+
+          <div class="stat-card reveal">
+            <div class="stat-top">
+              <span class="stat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              </span>
+              <span class="badge badge-sample">Namuna</span>
+            </div>
+            <div class="stat-value" data-counter="48" data-suffix="+">48+</div>
+            <div class="stat-label">O‘qituvchilar jamoasi</div>
+            <div class="stat-note">Oliy va birinchi toifali pedagoglar (namuna)</div>
+          </div>
+
+          <div class="stat-card reveal">
+            <div class="stat-top">
+              <span class="stat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/><path d="M9 4v16"/></svg>
+              </span>
+              <span class="badge badge-sample">Namuna</span>
+            </div>
+            <div class="stat-value" data-counter="24">24</div>
+            <div class="stat-label">Sinflar soni</div>
+            <div class="stat-note">Ixtisoslashtirilgan o‘quv sinflari (namuna)</div>
+          </div>
+
+          <div class="stat-card reveal">
+            <div class="stat-top">
+              <span class="stat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+              </span>
+              <span class="badge badge-sample">Namuna</span>
+            </div>
+            <div class="stat-value" data-counter="85" data-suffix="+">85+</div>
+            <div class="stat-label">Olimpiada va tanlov yutuqlari</div>
+            <div class="stat-note">Tuman, viloyat va respublika bosqichlari (namuna)</div>
+          </div>
+        </div>
+        <div class="stats-disclaimer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          <span>Izoh: Yuqoridagi raqamlar sayt dizayni uchun namunaviy ko‘rsatkichlar bo‘lib, haqiqiy statistik ma’lumotlar maktab ma’muriyati tomonidan kiritiladi.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Preview Section -->
+    <section class="section">
+      <div class="container about-split">
+        <div class="about-media-wrap reveal">
+          <img src="images/gallery/library.jpg" alt="46-IDUM kutubxonasi va o'quv muhiti" loading="lazy">
+          <div class="about-float-card">
+            <div>
+              <strong style="display:block;font-size:1rem;">46-IDUM — Buloqboshi tumani</strong>
+              <span style="font-size:0.84rem;color:rgba(255,255,255,0.8);">Zamonaviy ta’lim va yuksak tarbiya uyg‘unligi</span>
+            </div>
+            <a href="about.html" class="btn btn-accent btn-sm">Batafsil</a>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <span class="section-kicker">Maktab haqida</span>
+          <h2 class="section-title">Sifatli ta’lim, chuqurlashtirilgan bilim va zamonaviy tarbiya markazi</h2>
+          <p class="section-desc">
+            Andijon viloyati Buloqboshi tumanidagi 46-sonli ixtisoslashtirilgan davlat umumta’lim maktabi o‘quvchilarning intellektual salohiyatini ro‘yobga chiqarish, fanlarni chuqur o‘rgatish va ularni mustaqil fikrlaydigan barkamol avlod etib voyaga yetkazishni maqsad qilgan.
+          </p>
+          <div class="feature-list">
+            <div class="feature-item">
+              <span class="feature-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 2 7l10 5 10-5-10-5Z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></svg>
+              </span>
+              <div>
+                <strong>Ixtisoslashtirilgan o‘quv dasturlari</strong>
+                <div style="font-size:0.88rem;color:var(--color-text-muted);">Davlat ta’lim standartlari asosida chuqurlashtirilgan fan yo‘nalishlari.</div>
+              </div>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </span>
+              <div>
+                <strong>Tajribali pedagogik jamoa</strong>
+                <div style="font-size:0.88rem;color:var(--color-text-muted);">O‘quvchilar bilan individual va to‘garak shaklida ishlaydigan ustozlar.</div>
+              </div>
+            </div>
+          </div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+            <a href="about.html" class="btn btn-primary">Maktab haqida batafsil</a>
+            <a href="administration.html" class="btn btn-outline">Maktab rahbariyati</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest News Section -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-kicker">Yangiliklar</span>
+            <h2 class="section-title">So‘nggi yangiliklar va tadbirlar</h2>
+            <p class="section-desc">Maktab hayotidagi tadbirlar, fan olimpiadalari, tanlovlar va sport bellashuvlari haqidagi namunaviy xabarlar.</p>
+          </div>
+          <a href="news.html" class="btn btn-outline">Barcha yangiliklar &rarr;</a>
+        </div>
+
+        <div class="grid-3" id="homeNewsGrid"></div>
+      </div>
+    </section>
+
+    <!-- Achievements Highlight Section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-kicker">Faxrimiz</span>
+            <h2 class="section-title">O‘quvchilar yutuqlari</h2>
+            <p class="section-desc">Fan olimpiadalari, viloyat va respublika tanlovlari hamda sport musobaqalaridagi namunaviy yutuqlar.</p>
+          </div>
+          <a href="achievements.html" class="btn btn-outline">Barcha yutuqlar &rarr;</a>
+        </div>
+
+        <div class="grid-3">
+          <article class="card reveal">
+            <div class="card-media">
+              <span class="card-badge-float">Fan olimpiadasi</span>
+              <img src="images/achievements/trophy.jpg" alt="Fan olimpiadasi g'oliblari mukofotlari" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span>Namuna sana: 2026-yil</span>
+                <span class="badge badge-sample">Namuna ma’lumot</span>
+              </div>
+              <h3 class="card-title">Matematika fanidan viloyat olimpiadasi sovrindori</h3>
+              <p class="card-text">O‘quvchi: [O‘quvchi F.I.Sh. — namuna] • 10-sinf. Haqiqiy g‘olib ismi va diplom ma’lumotlari administrator tomonidan kiritiladi.</p>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-media">
+              <span class="card-badge-float">Axborot texnologiyalari</span>
+              <img src="images/gallery/computer-lab.jpg" alt="IT va dasturlash tanlovi yutug'i" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span>Namuna sana: 2026-yil</span>
+                <span class="badge badge-sample">Namuna ma’lumot</span>
+              </div>
+              <h3 class="card-title">Informatika va dasturlash bo‘yicha tuman tanlovi g‘olibi</h3>
+              <p class="card-text">O‘quvchi: [O‘quvchi F.I.Sh. — namuna] • 9-sinf. Ixtisoslashtirilgan sinf o‘quvchilarining loyiha tanlovidagi namunaviy natijasi.</p>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-media">
+              <span class="card-badge-float">Sport yutug‘i</span>
+              <img src="images/gallery/sports-hall.jpg" alt="Maktab sport musobaqasi g'oliblari" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span>Namuna sana: 2026-yil</span>
+                <span class="badge badge-sample">Namuna ma’lumot</span>
+              </div>
+              <h3 class="card-title">“Quvnoq startlar” va basketbol musobaqasi kubogi</h3>
+              <p class="card-text">Jamoa: [Maktab terma jamoasi — namuna]. Sport musobaqalari natijalari va faxriy yorliqlar ma’muriyat tomonidan yangilanadi.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Preview Section -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-kicker">Fotolavhalar</span>
+            <h2 class="section-title">Maktab hayotidan fotolavhalar</h2>
+            <p class="section-desc">Rasm ustiga bosib Lightbox oynasida kattalashtirilgan holda tomosha qiling.</p>
+          </div>
+          <a href="gallery.html" class="btn btn-outline">To‘liq galereya &rarr;</a>
+        </div>
+
+        <div class="gallery-grid" id="homeGalleryGrid"></div>
+      </div>
+    </section>
+
+    <!-- Quick Links Section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header-center reveal">
+          <span class="section-kicker">Tezkor havolalar</span>
+          <h2 class="section-title">Muhim bo‘limlarga tezkor o‘tish</h2>
+          <p class="section-desc">O‘quvchilar, ota-onalar va abituriyentlar uchun eng ko‘p murojaat qilinadigan sahifalar.</p>
+        </div>
+
+        <div class="quick-links-grid">
+          <a href="admission.html" class="quick-link-card reveal">
+            <span class="quick-link-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </span>
+            <h3 class="card-title">Qabul va hujjatlar</h3>
+            <p class="card-text">Maktabga qabul tartibi, kerakli hujjatlar ro‘yxati va onlayn ariza.</p>
+          </a>
+
+          <a href="admission.html#jadval" class="quick-link-card reveal">
+            <span class="quick-link-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </span>
+            <h3 class="card-title">Dars jadvali</h3>
+            <p class="card-text">O‘quv jarayoni, ixtisoslashtirilgan fanlar va mashg‘ulot vaqtlari.</p>
+          </a>
+
+          <a href="teachers.html" class="quick-link-card reveal">
+            <span class="quick-link-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/></svg>
+            </span>
+            <h3 class="card-title">O‘qituvchilar</h3>
+            <p class="card-text">Fanlar bo‘yicha ustozlar ro‘yxati, malaka toifalari va tajriba.</p>
+          </a>
+
+          <a href="contact.html" class="quick-link-card reveal">
+            <span class="quick-link-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </span>
+            <h3 class="card-title">Murojaat va aloqa</h3>
+            <p class="card-text">Manzil, xarita, Telegram havola va elektron murojaat formasi.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- News Detail Modal -->
+  <div class="modal-overlay" id="newsModal" role="dialog" aria-modal="true" aria-labelledby="newsModalTitle">
+    <div class="modal-dialog">
+      <button type="button" class="modal-close" id="closeNewsModal" aria-label="Oynani yopish">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+      <img id="newsModalImg" src="images/news/olympiad.jpg" alt="Yangilik rasmi" style="width:100%;max-height:340px;object-fit:cover;">
+      <div style="padding:28px;">
+        <div class="card-meta" style="margin-bottom:10px;">
+          <span class="badge badge-primary" id="newsModalCategory">Yangilik</span>
+          <span id="newsModalDate"></span>
+        </div>
+        <h2 class="section-title" id="newsModalTitle" style="font-size:1.5rem;margin-bottom:16px;"></h2>
+        <div id="newsModalBody" style="color:var(--color-text-muted);font-size:0.98rem;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div class="modal-overlay" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Rasmni kattalashtirib ko'rish">
+    <div class="lightbox-content">
+      <div class="lightbox-stage">
+        <button type="button" class="modal-close" id="lightboxClose" aria-label="Yopish" style="top:10px;right:10px;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+        <button type="button" class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Oldingi rasm">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
+        </button>
+        <img src="images/school/hero-school.jpg" alt="Galereya rasmi" class="lightbox-img" id="lightboxImg">
+        <button type="button" class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Keyingi rasm">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+        </button>
+      </div>
+      <div class="lightbox-caption">
+        <h3 id="lightboxTitle"></h3>
+        <p id="lightboxDesc"></p>
+        <span id="lightboxCounter" style="font-size:0.8rem;color:var(--color-accent);font-weight:700;"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Global Search Modal -->
+  <div class="modal-overlay" id="searchModal" role="dialog" aria-modal="true" aria-label="Sayt ichida qidirish">
+    <div class="modal-dialog search-modal-dialog">
+      <button type="button" class="modal-close" id="closeSearchModal" aria-label="Qidiruvni yopish">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+      <h2 class="card-title" style="margin-bottom:14px;">Sayt bo‘ylab qidiruv</h2>
+      <div class="search-box" style="max-width:100%;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="search" id="globalSearchInput" placeholder="Bo‘lim, fan yoki kalit so‘z kiriting...">
+      </div>
+      <div class="search-results-list" id="globalSearchResults"></div>
+    </div>
+  </div>
+
+  <!-- Back To Top Button -->
+  <button type="button" id="backToTop" aria-label="Yuqoriga qaytish" title="Yuqoriga">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="images/logo.png" alt="46-IDUM logotipi">
+            <div>
+              <strong style="display:block;color:#FFFFFF;font-size:1.1rem;">46-IDUM</strong>
+              <span style="font-size:0.8rem;color:rgba(255,255,255,0.72);">Andijon viloyati, Buloqboshi tumani</span>
+            </div>
+          </div>
+          <p style="font-size:0.9rem;color:rgba(255,255,255,0.75);margin-bottom:14px;">
+            46-sonli ixtisoslashtirilgan davlat umumta’lim maktabi rasmiy veb-portali. “Bilim — kelajak poydevori!”
+          </p>
+        </div>
+
+        <div>
+          <h3 class="footer-title">Maktab bo‘limlari</h3>
+          <ul class="footer-links">
+            <li><a href="about.html">Maktab haqida</a></li>
+            <li><a href="administration.html">Maktab rahbariyati</a></li>
+            <li><a href="teachers.html">O‘qituvchilar jamoasi</a></li>
+            <li><a href="news.html">Yangiliklar va tadbirlar</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-title">Foydali sahifalar</h3>
+          <ul class="footer-links">
+            <li><a href="gallery.html">Foto galereya</a></li>
+            <li><a href="achievements.html">O‘quvchilar yutuqlari</a></li>
+            <li><a href="admission.html">Qabul va o‘quv jarayoni</a></li>
+            <li><a href="contact.html">Aloqa va xarita</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-title">Aloqa ma’lumotlari</h3>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Andijon viloyati, Buloqboshi tumani, [Ko‘cha va uy raqami kiritiladi]</span>
+            </li>
+            <li class="footer-contact-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>[Telefon: +998 (__) ___-__-__]</span>
+            </li>
+            <li class="footer-contact-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              <span>[Email: info@46idum-namuna.uz]</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 46-IDUM (Andijon viloyati, Buloqboshi tumani). Barcha huquqlar himoyalangan.</span>
+        <span>Namunaviy ma’lumotlar maktab ma’muriyati tomonidan tahrirlanishi mumkin.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/news.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>
