@@ -9,7 +9,6 @@ O‘zbekiston Respublikasi Andijon viloyati Buloqboshi tumanida joylashgan **46-
 
 ## Loyiha tuzilmasi
 ```text
-46-idum/
 ├── index.html
 ├── about.html
 ├── administration.html
@@ -41,10 +40,10 @@ O‘zbekiston Respublikasi Andijon viloyati Buloqboshi tumanida joylashgan **46-
 
 ## Ishga tushirish bo‘yicha ko‘rsatma
 1. **Oddiy usul (VS Code Live Server):**
-   - `46-idum` papkasini VS Code da oching.
+   - Loyiha papkasini VS Code da oching.
    - `index.html` faylida **"Open with Live Server"** tugmasini bosing.
 2. **Node.js lokal server orqali:**
-   - Terminalda `46-idum` papkasiga kiring va quyidagi buyruqni ishga tushiring:
+   - Terminalda loyiha papkasiga kiring va quyidagi buyruqni ishga tushiring:
      ```bash
      npx serve .
      ```
